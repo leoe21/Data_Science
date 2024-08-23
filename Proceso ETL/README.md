@@ -193,7 +193,7 @@ Las transformaciones de Condition1 y Condition2, a diferencia de Neighborhood y 
 
 <br></br>
 ### 5. Archivo final
-Después de concluir todo el proceso, obtuvimos la base de datos con los parámetros exigidos por la docente, incluyendo el orden correcto de las columnas y las transformaciones pertinentes. El archivo resultante se puede observar en https://github.com/leoe21/Data_Science/blob/main/Proceso%20ETL/Base_Resultado_Final.xlsx (https://github.com/leoe21/Data_Science/blob/main/Proceso%20ETL/Base_Resultado_Final.xlsx)
+Después de concluir todo el proceso, obtuvimos la base de datos con los parámetros exigidos por la docente, incluyendo el orden correcto de las columnas y las transformaciones pertinentes. El archivo resultante se puede observar en https://github.com/leoe21/Data_Science/blob/main/Proceso%20ETL/Base_Resultado_Final.xlsx 
 
 
 
