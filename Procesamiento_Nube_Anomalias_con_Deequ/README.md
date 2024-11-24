@@ -1,11 +1,15 @@
-# Modelos de Regularización
+# **Detección de Anomalías con Deequ**
 
-Este repositorio contiene la solución al Examen 2 de la asignatura **Análisis Cuantitativo** del programa de Maestría en Ciencia de Datos, de la Facultad de Ingeniería, Diseño y Ciencias Aplicadas. Este examen se centra en la aplicación de modelos de regularización como Ridge, LASSO y Elastic-Net, así como en la detección de observaciones atípicas mediante la distancia de Mahalanobis.
+En el presente trabajo se aborda un análisis y detección de anomalías en un conjunto de datos utilizando la biblioteca Deequ, desarrollada por Amazon. Deequ es una herramienta poderosa para evaluar la calidad de los datos mediante la creación de métricas estadísticas y el uso de técnicas automatizadas para identificar irregularidades. Este análisis sigue una metodología estructurada que incluye las siguientes etapas:
 
-## Descripción del Proyecto
+1. **Selección del Dataset**:
+Se ha seleccionado un conjunto de datos que contiene diferentes tipos de información (numérica, categórica, y posiblemente temporal), con el fin de maximizar la riqueza y diversidad del análisis. Una parte de este dataset será destinada a representar datos "nuevos", mientras que otra parte servirá como referencia histórica. Esto permitirá aplicar técnicas de detección de anomalías, evaluando la consistencia entre datos actuales y pasados.
 
-El examen incluye ejercicios relacionados con la implementación de modelos de regresión regularizados y la detección de outliers, usando diferentes conjuntos de datos. Los principales objetivos del examen fueron:
+2. **Aplicación de Deequ Profiling**:
+En esta etapa, se utilizará Deequ para realizar un perfilado inicial del dataset. Este proceso permitirá obtener una visión global de la distribución de los datos, su integridad, la existencia de valores atípicos, y otras métricas relevantes. Estas métricas iniciales proporcionan la base para establecer criterios de calidad.
 
-1. **Modelos de Regularización**: Implementar y comparar modelos de regresión regularizados (Ridge, LASSO, Elastic-Net) para un conjunto de datos de viviendas en Boston. Evaluar la capacidad predictiva de cada modelo y seleccionar el mejor.
-2. **Detección de Outliers**: Utilizar la distancia de Mahalanobis para identificar observaciones atípicas en un conjunto de datos multivariantes. Integrar la detección de outliers con modelos de regularización robusta.
-3. **Modelado Predictivo**: Aplicar técnicas de reducción de dimensionalidad y modelado predictivo en grandes conjuntos de datos, como el “YearPredictionMSD” y el “California Housing Dataset”.
+3. **Uso de Deequ Analyzer**:
+Posteriormente, se aplicarán los análisis del módulo Analyzer de Deequ, que permite extraer métricas específicas del dataset. Estas métricas incluyen estadísticas descriptivas avanzadas, correlaciones y otras propiedades de los datos. Los resultados serán fundamentales para establecer reglas de calidad.
+
+4. **Detección de Anomalías con Deequ**:
+Finalmente, mediante el módulo de detección de anomalías de Deequ, se identificarán patrones inesperados en los datos nuevos en comparación con los históricos. Esta etapa tiene como objetivo detectar desviaciones significativas que podrían señalar problemas de calidad, errores en los datos o tendencias fuera de lo común.
