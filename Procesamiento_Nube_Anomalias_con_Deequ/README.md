@@ -1,5 +1,10 @@
 # **Detección de Anomalías con Deequ**
 
+Trabajo en conjunto con:
+Fabian Salazar Figueroa (https://github.com/alfa7g7)
+Raul Echeverry (https://github.com/RaulEcheverryLopez)
+Esteban Ordoñez (https://github.com/leoe21)
+
 En el presente trabajo se aborda un análisis y detección de anomalías en un conjunto de datos utilizando la biblioteca Deequ, desarrollada por Amazon. Deequ es una herramienta poderosa para evaluar la calidad de los datos mediante la creación de métricas estadísticas y el uso de técnicas automatizadas para identificar irregularidades. Este análisis sigue una metodología estructurada que incluye las siguientes etapas:
 
 1. **Selección del Dataset**:
